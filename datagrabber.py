@@ -47,7 +47,7 @@ def appearance(phrase):
       allstatements = (f"{statement1} \n {statement2} \n {statement3}")
       return allstatements
 
-appearance("gender")
+# appearance("gender")
 
 def location(spot):
   Queens = 0
