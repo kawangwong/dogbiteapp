@@ -138,7 +138,6 @@ def location(spot):
       ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
-      print(ballstatements)
 
 location("borough")
 
