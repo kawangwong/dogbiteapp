@@ -8,3 +8,13 @@ I've made past attempted to utilized sqlite3 and import the data, but that was m
 
 <h2>Deployment</h2>
 During deployment, EBS was degrading at every point. I found that the pip freeze was pushing into the requirements older packages, some of which were not compatible with Python 3. I had to manually adjust for that since even setting up a venv did not fix the issue. It turns out one of the issues was the json api requests. The list comphresion used to output data in real time caused the requests to 400 and 500 out during the build phase in EBS. I set the number to 100 as a test and it worked out within a matter of minutes.
+
+
+TLDR:
+Problems:
+Could not get data to print to screen - Added return statements in the functions and it fixed that.
+Unable to pull requirements that met Python3 language due to pip used being python2- Manually adjusted requirements and may have been able to also create venv that was python3 based as venv made was python2 based.
+Could not deploy on EBS without issues. - Had to lower api pull requests during list during build phase. This requires a more permanent solution, which may be solved using a sql database and some list check functions.
+
+Things to add in future:
+HTML page with more UI.
