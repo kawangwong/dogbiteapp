@@ -25,7 +25,7 @@ def locationdata():
     return datagrabber.location("borough")
 
 
-@app.route('/testpage', methods=['GET'])
+@app.route('/testpage')
 def testfunc():
     string1 = datagrabber.testerthing()
     return string1
