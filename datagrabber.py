@@ -69,7 +69,7 @@ def location(spot):
       bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
-      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
+      bstatement6 = (f"We have no idea where there were {Other} dog bites in 2015")
       ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
@@ -82,8 +82,8 @@ def location(spot):
       bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
-      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
+      bstatement6 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}\n{bstatement6}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Brooklyn":
@@ -96,7 +96,7 @@ def location(spot):
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
       bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}\n{bstatement6}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Manhattan":
@@ -108,8 +108,8 @@ def location(spot):
       bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
-      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
+      bstatement6 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}\n{bstatement6}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Staten Island":
@@ -121,8 +121,8 @@ def location(spot):
       bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
-      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
+      bstatement6 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}\n{bstatement6}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Other" and i == x-1:
@@ -134,8 +134,8 @@ def location(spot):
       bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
-      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
+      bstatement6 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}\n{bstatement6}")
       print(ballstatements)
       return ballstatements
 
