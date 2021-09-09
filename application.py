@@ -1,7 +1,7 @@
 from flask import Flask
 import datagrabber
 
-app = Flask(__name__)
+application = app = Flask(__name__)
 
 
 @app.route('/')
