@@ -15,7 +15,7 @@ def appearance(phrase):
   Male = 0
   Female = 0
   Unknown = 0
-  x = 10000 #change value for desired range
+  x = 100 #change value for desired range
   for i in range(x):
     prettyprint = formattedURLforJson.json()[i]
     theGender = prettyprint.get(phrase, None)
@@ -56,7 +56,7 @@ def location(spot):
   Manhattan = 0
   Staten_Island = 0
   Other = 0
-  x = 10000 #change value for desired range
+  x = 100 #change value for desired range
   for i in range(x):
     prettyprint = formattedURLforJson.json()[i]
     theSpot = prettyprint.get(spot, "Other")
