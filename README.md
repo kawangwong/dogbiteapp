@@ -21,4 +21,4 @@ Unable to pull requirements that met Python3 language due to pip used being pyth
 Could not deploy on EBS without issues. - Had to lower api pull requests during list during build phase. This requires a more permanent solution, which may be solved using a sql database and some list check functions.
 
 Things to add in future:
-HTML page with more UI.
+HTML page with more UI and input via user to change parameters for User input or link page.
